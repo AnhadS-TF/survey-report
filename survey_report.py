@@ -8,7 +8,7 @@ survey = pd.read_csv("class_survey.csv")
 plt.figure(figsize=(9,5))
 counts = survey["grade"].value_counts()
 plt.bar(counts.index, counts.values, color="#FF005D")
-plt.title("How many students are in each grade?")
+plt.title("How many students are in each Grade?")
 plt.xlabel("Grade")
 plt.ylabel("Number of Students")
 plt.tight_layout()
@@ -21,7 +21,7 @@ plt.savefig("chart_one.png", dpi=150)
 # %%
 #What pets do we Have?
 plt.figure(figsize=(9,5))
-plt.hist(survey["pet"], bins=5, color="#FFB700", edgecolor="white")
+plt.hist(survey["pet"], bins=5, color="#DD00FF", edgecolor="white")
 plt.title("What Pets do we Have?")
 plt.xlabel("Pet")
 plt.ylabel("Number of Students")
@@ -34,5 +34,3 @@ plt.savefig("chart_two.png", dpi=150)
 #%%
 print(f"Finding one: 35 students are in 6th grade, while 5 are in 7th.")
 print(f"Finding two: 11 students have fish, 9 have hamsters, 5 have cats, 10 don't have a pet, and 5 have a dog.")
-
-
