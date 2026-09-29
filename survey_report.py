@@ -21,7 +21,7 @@ plt.savefig("chart_one.png", dpi=150)
 # %%
 #What pets do we Have?
 plt.figure(figsize=(9,5))
-plt.hist(survey["pet"], bins=5, color="#DD00FF", edgecolor="white")
+plt.hist(survey["pet"], bins=5, color="#FFEA00", edgecolor="white")
 plt.title("What Pets do we Have?")
 plt.xlabel("Pet")
 plt.ylabel("Number of Students")
