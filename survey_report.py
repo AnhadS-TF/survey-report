@@ -21,7 +21,7 @@ plt.savefig("chart_one.png", dpi=150)
 # %%
 #What pets do we Have?
 plt.figure(figsize=(9,5))
-plt.hist(survey["pet"], bins=5, color="#FFEA00", edgecolor="white")
+plt.hist(survey["pet"], bins=5, color="#FFEA0", edgecolor="white")
 plt.title("What Pets do we Have?")
 plt.xlabel("Pet")
 plt.ylabel("Number of Students")
@@ -37,9 +37,10 @@ print(f"Finding two: 11 students have fish, 9 have hamsters, 5 have cats, 10 don
 
 #%%
 plt.figure(figsize=(9,5))
-plt.scatter(survey["minutes_reading"], survey["minutes_gaming"], color="#FFEA00", edgecolor="white")
+plt.scatter(survey["minutes_reading"], survey["minutes_gaming"], color="#7B06DB", edgecolor="white")
 plt.title("Does Our Time Reading Affect Our Time Gaming?")
 plt.xlabel("Minutes Gaming")
 plt.ylabel("Minutes Gaming")
 plt.tight_layout()
 plt.show()
+# %%
