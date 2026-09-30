@@ -34,3 +34,12 @@ plt.savefig("chart_two.png", dpi=150)
 #%%
 print(f"Finding one: 35 students are in 6th grade, while 5 are in 7th.")
 print(f"Finding two: 11 students have fish, 9 have hamsters, 5 have cats, 10 don't have a pet, and 5 have a dog.")
+
+#%%
+plt.figure(figsize=(9,5))
+plt.scatter(survey["minutes_reading"], survey["minutes_gaming"], color="#FFEA00", edgecolor="white")
+plt.title("Does Our Time Reading Affect Our Time Gaming?")
+plt.xlabel("Minutes Gaming")
+plt.ylabel("Minutes Gaming")
+plt.tight_layout()
+plt.show()
