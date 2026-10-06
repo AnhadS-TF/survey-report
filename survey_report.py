@@ -46,3 +46,18 @@ plt.ylabel("Minutes Gaming")
 plt.tight_layout()
 plt.show()
 # %%
+print(len(survey))
+gamers = survey[survey["minutes_gaming"] > 60]
+print(len(gamers))
+print(len(survey))
+#%%
+survey["hours_gaming"] = survey["minutes_gaming"] / 60
+survey.head()
+
+survey["screen_vs_book"] = survey["minutes_gaming"] - survey["minutes_reading"] # If positive, they game more than they read. If negative, they read more than they game.
+
+survey.sort_values(["grade", "minutes_reading"], ascending=[True, False])
+
+survey["hours_sleep"].describe()
+
+# %%
