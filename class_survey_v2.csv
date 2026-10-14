@@ -1,0 +1,42 @@
+student_id,grade,favorite_subject,pet,minutes_reading,minutes_gaming,hours_sleep
+1,7th,science,None,86, 0,5.6
+2,6,art,BIRD,21,110,6.0
+3,6th,P.E.,None,0,78,7.2
+4,7,Math,Bird,18,79,9.9
+5,six,English ,Bird,45, 3,9.1
+6,six,English,Cat,39,123,6.8
+7,6,English ,Fish,72,163,6.0
+8,6,Art,Dog,61, 20,6.3
+9,6,P.E.,Hamster,, 92,7.9
+10,7th,english,None,47,85,8.0
+11,6th,History,Cat,10,143,6.0
+12,7,Art ,Hamster,68,57,8.6
+13,6,Math,Bird,73,25,9.2
+14,6,PE,None,0,172,8.0
+15,7,Art ,Hamster,50,156,5.6
+16,7th,Math ,Dog,46,106,7.4
+17,6,Math ,Hamster,,64,6.5
+18,7th,art,Hamster,,173,99
+19,7,art,Cat,79,43,6.8
+20,6,Art,Cat,45,88,6.7
+21,7,MATH,Cat,72,84,7.3
+22,six,pe,Bird,52, 185,8.2
+23,7,History ,None,21,29,9.9
+24,6,science,HAMSTER,17,0,8.2
+25,6,Art ,Fish,5,56,6.5
+26,7th,English,Bird,33,34,7.2
+27,6,pe,Hamster,76,106,7.4
+28,7th,math,None,86,84,N/A
+29,6,Science,None,32,46,
+30,6,Math ,Dog,81,34,5.8
+31,7,English ,Dog,11,43,6.1
+32,6,History ,FISH,38,175,9.1
+33,6,Math ,None,63,119,8.7
+34,6th,Science,Dog,42,89,8.1
+35,6,English,Dog,, 122,9.8
+36,6,English ,Fish,83,20,8.0
+37,7,English,Fish,10,113,9.2
+38,7,history,Cat,87,31,8.1
+39,7th,History,Cat,,147,9.6
+40,6,math,Fish,55,59,6.9
+6,six,English,Cat,39,123,6.8
