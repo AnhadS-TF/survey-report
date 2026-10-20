@@ -48,9 +48,9 @@ print(survey["pet"].unique())
 survey['pet'] = survey['pet'].str.strip().str.title()
 survey['pet'] = survey['pet'].replace({'BIRD': 'Bird', 'HAMSTER': 'Hamster', 'DOG': 'Dog', 'CAT': 'Cat', 'FISH': 'Fish'})
 
-
+# %%
+print(survey['hours_sleep'].unique())
+survey['hours_sleep'] = survey['hours_sleep'].astype(str).str.strip().str.title()
+survey['hours_sleep'] = survey['hours_sleep'].str.replace({'8.': '8', '6.': '6', 'nan': '0', '99.': 'Undefined'})
 # %%
 survey.to_csv("clean_class_survey_v2.csv", index=False) 
-
-
-# %%
