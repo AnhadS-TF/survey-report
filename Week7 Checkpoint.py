@@ -21,4 +21,4 @@ plt.savefig("checkpoint_chart.png")
 
 # %%
 avg
-# Fans of P.E. game the most, with  
+# Fans of P.E. game the most, with an average of 126.6 minutes gaming, while Science fans game the least, with an average of 33.8 minutes gaming.
