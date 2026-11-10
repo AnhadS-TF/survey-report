@@ -6,7 +6,7 @@
 A data project about our class survey, for a data science course
 
 ## Where the data came from
-We surveyed 40 students(fake) in a(fake)class and asked them about their grade, favorite subject, pet, minutes reading, minutes gaming, and hours of sleep. 
+We surveyed 40 students(fake) in a(fake)class and asked them about their grade, favorite subject, pet, minutes reading, minutes gaming, and hours of sleep per day. 
 We collected the (fake) data a second time and that version needed cleaning.
 
 ## What's in this folder
